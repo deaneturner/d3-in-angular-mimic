@@ -6,7 +6,7 @@ import * as d3 from 'd3';
   selector: 'app-area-chart',
   encapsulation: ViewEncapsulation.None,
   templateUrl: './area-chart.component.html',
-  styleUrls: ['./area-chart.component.css']
+  styleUrls: ['./area-chart.component.scss']
 })
 export class AreaChartComponent implements OnInit, OnChanges {
   @Input() data: number[] | undefined;
